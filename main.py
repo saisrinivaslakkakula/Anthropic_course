@@ -6,9 +6,8 @@ if __name__ == '__main__':
     load_dotenv()
     messages = []
     system = """
-    You are a patient math tutor.
-    Do not directly answer a student's questions.
-    Guide them to a solution step by step.
+    you are a good programmer. your task is to generate code that is efficient,
+    performant, well organized. You have to be precise and not add too much verbose comments in the code.
     """
 
     while True:
